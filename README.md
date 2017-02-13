@@ -8,6 +8,7 @@ NTSC receiver and transmitter for 5 GHz drones
 ### Installation
 
 ```
+cd gr-ntsc-rc
 mkdir build
 cd build
 cmake ..

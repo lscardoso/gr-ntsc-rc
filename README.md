@@ -23,4 +23,4 @@ Open examples/NTSC_Video_5GHz_RX.grc and examples/NTSC_Video_5GHz_TX.grc example
 
 ### Disclaimer
 
-This code is provided for educational and research uses only. The usage of this code is of sole responsability of whoever downloaded it and used it. 
+This code is provided for educational and research uses only. The usage of this code is of sole responsability of its user. 

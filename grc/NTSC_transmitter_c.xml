@@ -1,0 +1,35 @@
+<block>
+  <name>NTSC Transmitter C++</name>
+  <key>NTSC_transmitter_c</key>
+  <category>NTSC</category>
+  <import>import NTSC</import>
+  <make>NTSC.transmitter_c($samp_rate)</make>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>float</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <doc>
+  ------------ NTSC TRANSMITTER C++ -----------
+          This block generates a black and white NTSC video signal from the image defined in the header file "image_matrix.h".
+
+  --- INPUT ---
+      "image_matrix.h" defines the displayed image as a float img_mat[240][360].
+      img_mat[y][x] =  BW level of the pixel at (X, Y). (From Black = 0.0 to White = 1.0)
+
+  --- OUTPUT ---
+      * out0 : NTSC signal (c.f. protocol definition).
+
+  --- PARAMETERS ---
+      * Sample Rate : samp_rate.
+
+  --- CODE DESCRIPTION ---
+      The block generates the NTSC Signal using state machine (meta-state and sub-state).
+      States defined in NTSC_Protocol_And_Signal_Description.jpg
+  </doc>
+</block>

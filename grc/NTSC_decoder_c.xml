@@ -1,0 +1,55 @@
+<block>
+  <name>NTSC Decoder C++</name>
+  <key>NTSC_decoder_c</key>
+  <category>NTSC</category>
+  <import>import NTSC</import>
+  <make>NTSC.decoder_c($samp_rate)</make>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <doc>
+  ------------ NTSC DECODER C++ -----------
+        This block coverts a black and white NTSC Signal to video pixels sent to a block "NTSC Stream Converter C++".
+
+  --- INPUT ---
+      * in0 : NTSC black and white Signal filtered at 1.25 MHz.
+
+  --- OUTPUTS ---
+      * out0 : Control signal of NTSC states : synchronisation, equalising, ...
+          Note : NTSC_configuration.h lists all states.
+      * out1 : X = position of the pixel over the x-axis, from 0 to 360.
+      * out2 : Y = position of the pixel over the y-axis, from 0 to 240.
+      * out3 : BW = black and white level of the pixel : from black = 0 to white = 255.
+          Note : Inputs 1, 2, 3 are equal to -1 unless control signal out0 = video.
+
+  --- PARAMETERS ---
+      * Sample Rate : samp_rate.
+
+  --- CODE DESCRIPTION ---
+      The block decodes the NTSC Signal using a state machine.
+      States defined in NTSC_Protocol_And_Signal_Description.jpg
+  </doc>
+</block>

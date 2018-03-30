@@ -21,6 +21,10 @@ sudo ldconfig
 
 Open examples/NTSC_Video_5GHz_RX.grc and examples/NTSC_Video_5GHz_TX.grc example flow graph in GNU Radio Companion.
 
+### History
+
+This code is part of an end-of-term project @ INSA Lyon's Telecommuncation Engineering Dept.
+
 ### Disclaimer
 
 This code is provided for educational and research uses only. The usage of this code is of sole responsability of its user. 

@@ -1,6 +1,6 @@
 #ifndef INCLUDED_NTSC_VIDEO_STREAM_CONVERTER_C_IMPL_H
 #define INCLUDED_NTSC_VIDEO_STREAM_CONVERTER_C_IMPL_H
-#include <NTSC/video_stream_converter_c.h>
+#include <gnuradio/NTSC/video_stream_converter_c.h>
 #include "NTSC_configuration.h"
 namespace gr {
   namespace NTSC {

@@ -1,6 +1,6 @@
 #ifndef INCLUDED_NTSC_DECODER_C_IMPL_H
 #define INCLUDED_NTSC_DECODER_C_IMPL_H
-#include <NTSC/decoder_c.h>
+#include <gnuradio/NTSC/decoder_c.h>
 namespace gr {
   namespace NTSC {
     class decoder_c_impl : public decoder_c

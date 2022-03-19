@@ -1,17 +1,17 @@
-title: The NTSC-RC OOT Module
-brief: 5.8 GHz ammateur drone wireless video feed TX and RX
-tags:
-  - drone
-  - NTSC
-  - video
+title: The NTSC OOT Module
+brief: Short description of gr-NTSC
+tags: # Tags are arbitrary, but look at CGRAN what other authors are using
+  - sdr
 author:
-  - Simon Bicais <simon.bicais@gmail.com>
-  - Leonardo Cardoso <leonardo.cardoso@insa-lyon.fr>
+  - Author Name <authors@email.address>
 copyright_owner:
-  - Simon Bicais
-  - Leonardo Cardoso
+  - Copyright Owner 1
 license:
-repo: https://github.com/lscardoso/gr-ntsc-rc.git
-website: https://github.com/lscardoso/gr-ntsc-rc
+gr_supported_version: # Put a comma separated list of supported GR versions here
+#repo: # Put the URL of the repository here, or leave blank for default
+#website: <module_website> # If you have a separate project website, put it here
+#icon: <icon_url> # Put a URL to a square image here that will be used as an icon on CGRAN
 ---
-5.8 GHz ammateur drone wireless video feed TX and RX
+A longer, multi-line description of gr-NTSC.
+You may use some *basic* Markdown here.
+If left empty, it will try to find a README file instead.

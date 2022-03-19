@@ -1,6 +1,6 @@
 #ifndef INCLUDED_NTSC_TRANSMITTER_C_IMPL_H
 #define INCLUDED_NTSC_TRANSMITTER_C_IMPL_H
-#include <NTSC/transmitter_c.h>
+#include <gnuradio/NTSC/transmitter_c.h>
 namespace gr {
   namespace NTSC {
     class transmitter_c_impl : public transmitter_c
